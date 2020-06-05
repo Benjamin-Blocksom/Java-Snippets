@@ -32,6 +32,8 @@ List<String> arrayListSix = new ArrayList<>();
 // ArrayList in a reference variable. (Interfaces cannot be 
 // instantiated.)
 
+
+
   public static void main (String [] args) {
     System.out.println(arrayListOne);
   }

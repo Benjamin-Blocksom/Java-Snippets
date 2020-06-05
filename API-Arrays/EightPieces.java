@@ -18,12 +18,13 @@ class EightPieces {
 	System.out.println(eightPieces.remove("theHundred"));
 	System.out.println("How about now? Removing a piece?");
 	System.out.println(eightPieces.remove("toe-stretch"));
-	
+	System.out.println(eightPieces.size());
+
 	try {
 		eightPieces.remove(100);
 	} catch (Exception e){
 	System.out.println("Fish out of water!");
-	System.out.println("(That means there was a Run time error: " 
+	System.out.println("(That means there was a Run time exception: " 
 			+ e + ".)");
 	}
 

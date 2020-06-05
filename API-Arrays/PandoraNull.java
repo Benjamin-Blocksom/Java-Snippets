@@ -17,12 +17,14 @@ class PandoraNull {
 		  evilIntegers.get(0) +  ".");
   	System.out.println("The next is " + 
 		  evilIntegers.get(1) + ".");
-  	System.out.println("The final evil is " +
-		  evilIntegers.get(2) + ".");
+  	
+	System.out.print("The final evil is ");
+	int primitiveVariable = evilIntegers.get(2);
+	System.out.println(primitiveVariable + ".");
   
   	System.out.println("Heaven");
   	} catch (Exception e) {
-  	System.out.println("The final evil: " + e);
+  	System.out.println((evilIntegers.get(2)) + ": " + e);
   	} finally {
   	System.out.println("Also named hope.");
   	}	
