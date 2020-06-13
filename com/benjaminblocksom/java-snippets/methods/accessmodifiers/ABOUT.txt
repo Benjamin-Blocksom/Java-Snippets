@@ -1,0 +1,15 @@
+The purpose of this directory and the files contained herein is to show how access modifiers work. In Java there are four access modifiers. From most restrictive to least they are (1) private , (2) default, (3) protected, and (4) public. Default is declared by absence of a keyword, as opposed to the others. 
+
+Private gives access only in its same class.
+Default gives access to private plus other classes in same package.
+Protected gives default access and access to child classes.
+Public gives protected access and access to all other packages.
+
+As a demonstration, consider the following classes:
+
+|Package|Classes|
+|-------|-------|
+|user.employee|SalesRep, Manager, CSR, and Paralegal|
+|user.client| Government, Community, Corporate | 
+
+
